@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Portfolio</title>
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for social and skill icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">My Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!-- Dark Mode Toggle Button -->
+        <div class="theme-toggle" id="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </div>
+        <!-- Mobile Menu Icon -->
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span class="highlight">Krishna Doulagar</span></h1>
+            <h3>Front-End Developer | Problem Solver</h3>
+            <p>I am a passionate web developer with a strong interest in creating modern, responsive, and user-friendly websites. I enjoy turning ideas into real-world applications using HTML, CSS, and JavaScript. Along with web development, I focus on problem solving and logical thinking, which helps me write efficient and clean code. I am continuously learning and improving my skills to build better digital experiences.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+        <div class="home-image">
+            <!-- Profile Image Placeholder -->
+            <img src="KrishnaDD.png" alt="Krishna Photo">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="about-content">
+            <p>Hi, I’m Krishna, an aspiring software developer and AI & ML enthusiast. I enjoy building clean, responsive, and interactive web applications using HTML, CSS, and JavaScript. My goal is to create digital experiences that are both functional and visually appealing.</p>
+            <p>I also have a strong interest in problem solving and data-driven thinking. I actively practice coding challenges to improve my analytical skills and deepen my understanding of algorithms. I believe in continuous learning and strive to grow as a developer by working on innovative projects.</p>
+            <a href="#contact" class="btn">Let's Connect</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <!-- HTML Skill -->
+            <div class="skill-box">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+            <!-- CSS Skill -->
+            <div class="skill-box">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+            </div>
+            <!-- JavaScript Skill -->
+            <div class="skill-box">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <!-- Responsive Design Skill -->
+            <div class="skill-box">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Responsive Design</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">My <span>Projects</span></h2>
+        <div class="projects-container">
+            <!-- Project Card 1 -->
+            <div class="project-card">
+                <img src="TodoList.png" alt="Project 1">
+                <div class="project-info">
+                    <h3>Todo List</h3>
+                    <p>A full-featured responsive Todo List where the tasks are appointed.</p>
+                    <a href="https://krishna404-error.github.io/Todo/" class="btn-small">Live Demo</a>
+                </div>
+            </div>
+            <!-- Project Card 2 -->
+            <div class="project-card">
+                <img src="Weather.png" alt="Project 2">
+                <div class="project-info">
+                    <h3>Weather Dashboard</h3>
+                    <p>A sleek weather tracking app that displays real-time data fetched from public APIs.</p>
+                    <a href="https://krishna404-error.github.io/Weather_Broadacast/" class="btn-small">Live Demo</a>
+                </div>
+            </div>
+            <!-- Project Card 3 -->
+            <div class="project-card">
+                <img src="Amazon.png" alt="Project 3">
+                <div class="project-info">
+                    <h3>Task Management Tool</h3>
+                    <p>A clean and intuitive productivity app to track daily tasks with drag-and-drop features.</p>
+                    <a href="https://krishna404-error.github.io/amazon-Clone/" class="btn-small">Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact <span>Me</span></h2>
+        <!-- Contact Form -->
+        <form class="contact-form" id="contact-form">
+            <div class="input-group">
+                <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="input-group">
+                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Krishna Doulagar. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to external JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
