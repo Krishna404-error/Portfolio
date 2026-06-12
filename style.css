@@ -13,7 +13,11 @@
 .dark-mode {
     --bg-color: #121212;
     --text-color: #f8f9fa;
+<<<<<<< HEAD
     --primary-color: #bb86fc; /* Lighter purple for dark mode */
+=======
+    --primary-color: #8f1410; /* Lighter purple for dark mode */
+>>>>>>> 80a2ab2 (Second commit)
     --secondary-color: #1f1f1f;
     --card-bg: #1e1e1e;
     --nav-bg: rgba(18, 18, 18, 0.95);
